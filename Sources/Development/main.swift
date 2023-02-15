@@ -1,4 +1,6 @@
 import Vapor
+import NIO
+import AsyncHTTPClient
 
 var env = try Environment.detect()
 try LoggingSystem.bootstrap(from: &env)
